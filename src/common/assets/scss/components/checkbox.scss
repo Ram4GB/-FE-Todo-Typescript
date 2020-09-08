@@ -1,0 +1,17 @@
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border: 1px solid $border-checkbox-color;
+    margin-right: 10px;
+    position: relative;
+
+    &--active::after {
+        content: '✓';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,31 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;700&display=swap');
+
+// Variable
+@import './variable.scss';
+
+//Component
+@import './components/header.scss';
+@import './components/sidebar.scss';
+@import './components/list-todo.scss';
+@import './components/checkbox.scss';
+
+// Page
+@import './pages/todo.scss';
+
+// reset style
+
+* {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    line-height: 1.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

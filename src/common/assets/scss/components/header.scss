@@ -1,0 +1,42 @@
+.header {
+    height: $height-header;
+    width: 100%;
+    background-color: $accent-color;
+    border-bottom: 1px solid $border-color-devide;
+
+    &__wrap-logo {
+        display: flex;
+        align-items: center;
+
+        & .header__title-app{
+            color: $text-primary-color;
+        }
+    }
+
+    &__logo {
+        width: $height-header;
+        height: $height-header;
+    }
+
+    &__group-action-right {
+        margin-left: auto;
+
+        ul {
+            list-style: none;
+        }
+    }
+
+    &__action-links {
+        display: flex;
+    }
+
+    &__action-link-text{
+        padding: 5px 8px;
+        color: $text-primary-color;
+
+        &:hover {
+            text-decoration: none;
+            color: $link-color-hover;
+        }
+    }
+}
